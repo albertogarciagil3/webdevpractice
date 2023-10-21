@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!-- Esta linea marca el idioma, en este caso ingles -->
+<html lang="en">
+
+<!-- Esta es un estilo que estoy aplicando a la table, a la fila y a la columna -->
+<link rel="stylesheet" href="CSS Files/General.css">
+
+<style>
+    table,
+    tr,
+    td,
+    th {
+        border: 1px solid black;
+        border-collapse: separate;
+    }
+
+    h2 {
+        background-color: red;
+    }
+</style>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 style="background-color: goldenrod; color: aliceblue; text-align: center;">PRACTICA FLOAT</h1>
+    <div class="navbar">
+        <div class="izquierda" href="link">Pagina de Alberto</div>
+        <a href="link">Sign Up</a>
+        <a href="link">Sign In</a>
+        <a href="link">Settings</a>
+    </div>
+
+    <div class="clearfix"></div>
+
+
+
+
+
+    <div>
+
+        <div class="contenedor">
+            <div>
+                <img class="imagen" src="images/download.jpeg">
+            </div>
+            <div class="texto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+        </div>
+
+        <div class="contenedor">
+            <div>
+                <img class="imagen" src="images/download.jpeg">
+            </div>
+            <div class="texto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
+            </div>
+        </div>
+
+        <div class="contenedor-abajo">
+            <div>
+                <img class="imagen" src="images/download.jpeg">
+            </div>
+            <div class="texto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
+            </div>
+        </div>
+
+        <div class="contenedor-abajo">
+            <div>
+                <img class="imagen" src="images/download.jpeg">
+            </div>
+            <div class="texto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- How to give style directly on HTML  -->
+    <p class="clearfix" style="background-color: tomato;">This is a paragraph</p>
+
+    <!-- How to insert an image -->
+    <img src="Nuevo Horario.png" alt="Esta es la imagen de mi horario" width="100px" height="100px">
+
+
+    <!-- how to insert a tag into a tag, in this case an image inside a link makes the image clickable and open the link -->
+    <a href="https://www.google.com/"><img src="images/Nuevo Horario.png" alt="this is the image of a doggy"
+            width="20px" height="20px"></a>
+
+
+    <!-- This is the way to apply two different styles in the same text -->
+    <h2 class="textos" style="color:aliceblue; text-align: center;">Text Styles</h2>
+
+
+    <!-- Different types of HTML Formatting Elements -->
+    <p></p><b> - Bold text </b>
+    <br>
+    The HTML element defines bold text, without any extra importance.
+    <br><br>
+    <p></p>
+
+    <p></p><strong> - Important text </strong>
+    <br>
+    The HTML element defines text with strong importance. The content inside is typically displayed in bold.
+    <br><br>
+    <p></p>
+
+    <p></p><i> - Italic text </i>
+    <br>The HTML element defines a part of text in an alternate voice or mood. The content inside is typically displayed
+    in italic. Tip: The "i" tag is often used to indicate a technical term, a phrase from another language, a thought, a
+    ship name etc.
+    <br><br>
+    <p></p>
+
+    <p></p><em> - Emphasized text </em>
+    <br>
+    The HTML 'em' element defines emphasized text. The content inside is typically displayed in italic.
+    Tip: A screen reader will pronounce the words in "em" with an emphasis, using verbal stress.
+    <br><br></p>
+
+    <mark> - Marked text </mark>
+    <br>
+    The HTML "mark" element defines text that should be marked or highlighted:
+    <br><br>
+
+    <small> - Smaller text </small>
+    <br>
+    The HTML "small" element defines smaller text:
+    <br><br>
+
+    <del> - Deleted text </del>
+    <br>
+    The HTML "del" element defines text that has been deleted from a document. Browsers will usually strike a line
+    through
+    deleted text:
+    <br><br>
+
+    <ins> - Inserted text </ins>
+    <br>
+    The HTML "ins" element defines a text that has been inserted into a document. Browsers will usually underline
+    inserted
+    text:
+    <br><br>
+
+    - This paragraph has <sub> Subscript text </sub>
+    <br>
+    The HTML "sub" element defines subscript text. Subscript text appears half a character below the normal line, and is
+    sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O:
+    <br><br>
+
+    - This paragrap has <sup> Superscript text </sup>
+    <br>
+    The HTML "sup'" element defines superscript text. Superscript text appears half a character above the normal line,
+    and is
+    sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1]:
+    </p>
+    <br><br>
+
+    <!-- Tablas -->
+    <h2 style="color: aliceblue; text-align: center;">Tablas</h2>
+
+    <!-- A continuación se muestra una tabla, tr son las filas, td las columnas, th son los titulos (bold)-->
+    <table>
+        <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+        </tr>
+        <tr>
+            <td>
+                fila 1, columna 1
+            </td>
+            <td>
+                fila 1, columna 2
+            </td>
+            <td>
+                fila 1, columna 3
+            </td>
+        </tr>
+        <tr>
+            <td>
+                fila 2, columna 1
+            </td>
+            <td>
+                fila 2, columna 2
+            </td>
+            <td>
+                fila 2, columna 3
+            </td>
+        </tr>
+        <tr>
+            <td>
+                fila 3, columna 1
+            </td>
+            <td>
+                fila 3, columna 2
+            </td>
+            <td>
+                fila 3, columna 3
+            </td>
+        </tr>
+    </table>
+
+    <!-- Listas -->
+    <h2 style="color: aliceblue; text-align: center;">Listas</h2>
+
+    <!-- A continuación hay una lista  -->
+    <!-- ol es con numeros, imagina que la o es un ZERO y un zero es un numero  -->
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+
+    </ol>
+
+    <!-- ul es sin numeros  -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <!-- Se puede poner una lista adentro de otra lista -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <OL>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </OL>
+    </ul>
+
+
+    <!-- Colors -->
+    <h2 style="color: aliceblue; text-align: center;">Colores</h2>
+
+    <p style="background-color: aqua;">Este es background-color agua</p>
+    <p style="color: red">Este es text color rojo</p>
+    <p style="border: 3px dotted blue;">Este es border-color azul</p>
+
+
+    <!-- Tipos de Colores -->
+    <h3>Formatos para especificar los colores</h3>
+    <pre>
+    In HTML, you can specify colors using various methods, including: 
+    
+    - RGB Values: You can represent colors using the RGB (Red, Green, Blue) model, where you define the amount of red, green,
+    and blue in a color. For example, rgb(255, 0, 0) represents pure red.
+    
+    - HEX Values: Hexadecimal color codes are a popular way to specify colors. They start with a # followed by six hexadecimal
+    digits, representing the color's RGB values. For instance, #FF0000 is equivalent to pure red.
+    
+    - HSL Values: HSL (Hue, Saturation, Lightness) is another color representation method. You define the color based on its
+    hue, saturation, and lightness. For example, hsl(0, 100%, 50%) represents pure red.
+    
+    - RGBA Values: RGBA (Red, Green, Blue, Alpha) is an extension of RGB that includes an additional alpha channel to control
+    transparency. For instance, rgba(255, 0, 0, 0.5) represents semi-transparent red.
+    
+    - HSLA Values: Similar to RGBA, HSLA includes an alpha channel to control transparency using the HSL model. For example,
+    hsla(0, 100%, 50%, 0.5) represents semi-transparent red.
+    </pre>
+
+
+
+    <br>
+    <br>
+
+    <div class="input">
+        <label for="slider">Selecciona un valor:</label>
+        <input type="range" id="slider" name="slider" min="0" max="100" step="2" value="50">
+    </div>
+
+
+
+
+
+</body>
+
+</html>

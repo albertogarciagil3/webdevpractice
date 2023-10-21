@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.navbar {
+
+    background-color: cadetblue;
+
+
+
+}
+
+.contenedorbotones {
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.contenedorbotones a {
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+
+ #logo {
+     border-radius: 50%;
+
+ }
+@media screen and (max-width: 340px) {
+
+    .contenedorbotones {
+        float: none;
+        margin: 0;
+    }
+
+    #logo {
+        display: none;
+
+    }
+
+    .contenedorbotones a {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+}

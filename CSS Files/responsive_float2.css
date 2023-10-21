@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.imagene {
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-container {
+    float: left;
+    width: 33.33%;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+.prueba {
+    display: inline-block;
+    background-color: aqua;
+    clear: both;
+    height: 300px;
+    width: 600px;
+}
+
+.especial {
+    width: 100%;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .img-container {
+        float: none;
+        width: 100%;
+    }
+}

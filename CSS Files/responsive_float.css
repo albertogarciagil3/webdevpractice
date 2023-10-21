@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+/* Estos son los atributos para pantalla general */
+
+
+.contenedor {
+    float: left;
+    width: 25%;
+
+
+}
+
+.contenedor-abajo {
+    float: left;
+    width: 25%;
+}
+
+
+
+.imagen {
+    float: left;
+    width: 50%;
+    margin: 20px;
+
+}
+
+.texto {
+    margin: 20px;
+
+}
+
+
+.clearfix {
+    clear: both;
+}
+
+
+
+
+/* Estos son los atributos para otras pantallas mas chicas */
+
+
+
+
+@media screen and (max-width: 1130px) {
+
+    .contenedor {
+        float: left;
+        width: 50%;
+
+    }
+
+    .contenedor-abajo {
+        float: left;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .contenedor {
+        float: left;
+        width: 100%;
+
+    }
+
+    .contenedor-abajo {
+        float: left;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 456px) {
+
+    .navbar {
+        height: 100px;
+    }
+
+
+    a {
+        display: block;
+
+
+    }
+
+    .imagen {
+        width: 100%;
+
+    }
+
+    .texto {
+        width: 100%;
+
+    }
+
+    .izquierda {
+        display: none;
+    }
+
+
+    .navbar a {
+
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        padding: 7px;
+    }
+}
